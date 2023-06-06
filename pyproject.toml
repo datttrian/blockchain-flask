@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blockchain-flask"
+version = "0.1.0"
+description = ""
+authors = ["Dat T. Tran <datttrian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "blockchain_flask"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
